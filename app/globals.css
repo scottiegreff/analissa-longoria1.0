@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+  }
+
+  .dark {
+  
+  }
+}
+
+h1 {
+  font-family: var(--font-bebas-neue);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+.object-contain-vertical {
+  object-fit: contain;
+  max-height: 90vh;
+  width: auto;
+}
+
+.object-contain-horizontal {
+  object-fit: contain;
+  max-width: 90vw;
+  height: auto;
+}
