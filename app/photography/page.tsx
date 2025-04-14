@@ -24,7 +24,7 @@ export default function Photography() {
           <h1 className={cn("text-[5rem] text-red-700", fontBabas.className)}>
             Analissa
           </h1>
-          <Link
+          {/* <Link
             href="https://www.instagram.com/analissalongoria/"
             passHref
             legacyBehavior
@@ -39,7 +39,7 @@ export default function Photography() {
             >
               <Instagram className="text-red-700" />
             </a>
-          </Link>
+          </Link> */}
           <h1 className={cn("text-[5rem] text-red-700", fontBabas.className)}>
             Longoria
           </h1>
