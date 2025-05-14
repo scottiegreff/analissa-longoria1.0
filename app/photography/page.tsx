@@ -24,22 +24,6 @@ export default function Photography() {
           <h1 className={cn("text-[5rem] text-red-700", fontBabas.className)}>
             Analissa
           </h1>
-          <Link
-            href="https://www.instagram.com/analissalongoria/"
-            passHref
-            legacyBehavior
-          >
-            <a
-              className={cn(
-                "text-red-700 text-xl hover:drop-shadow-4xl",
-                fontSpecialElite.className
-              )}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Instagram className="text-red-700" />
-            </a>
-          </Link>
           <h1 className={cn("text-[5rem] text-red-700", fontBabas.className)}>
             Longoria
           </h1>

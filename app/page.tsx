@@ -16,8 +16,7 @@ const fontSpecialElite = Special_Elite({
 
 export default function Home() {
   return (
-    <main className="">
-
+    <main className="min-h-screen bg-black">
       <BackgroundVideo src={getStarted}>
         <div className="flex flex-col h-screen justify-between items-center mb-10">
           <h3
