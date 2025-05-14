@@ -22,7 +22,7 @@ export default function Videos() {
     <>
       <section className="bg-black">
         <div className="flex flex-col items-center gap-10 pb-20 bg-black">
-          <h1 className={cn("text-[5rem] text-red-700", fontBabas.className)}>
+          <h1 className={cn("text-[5rem] text-red-700 m-center", fontBabas.className)}>
             Analissa Longoria
           </h1>
           <nav className="flex justify-around items-center w-screen">

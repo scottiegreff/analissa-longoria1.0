@@ -20,13 +20,13 @@ const fontSpecialElite = Special_Elite({
 export default function About() {
   return (
     <>
-      <div className="w-[90vw] mx-auto">
+      <div className="w-[90vw] mx-auto flex flex-col md:block">
         <Image
           src={analissa}
           width="400"
           height="400"
           alt="Photo of Analissa Longoria"
-          className="w-[40vw] object-cover border p-3  border-red-700 rounded-xl m-3 float-left mr-6"
+          className="w-full md:w-[40vw] object-cover border p-3 border-red-700 rounded-xl m-3 md:float-left md:mr-6"
         />
         <div className="flex flex-col items-center mb-5">
           <h1
