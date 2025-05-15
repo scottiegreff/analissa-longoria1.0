@@ -17,7 +17,7 @@ const fontSpecialElite = Special_Elite({
 export default function Home() {
   return (
     <main className="min-h-screen bg-black">
-      <BackgroundVideo src={getStarted} className={cn("h-screen w-full object-cover")}>
+      <BackgroundVideo src={getStarted} className={cn("h-screen w-full autoplay no-controls")}>
         {/* Mobile Layout */}
         <div className="flex flex-col h-screen md:hidden">
           <div className="flex-1 flex flex-col items-center justify-center">
