@@ -59,7 +59,7 @@ export default function Photography() {
         </nav>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 bg-black">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 bg-black p-3 md:p-0">
         {photos.map((photo, index) => (
           <Photo
             key={photo.src}
