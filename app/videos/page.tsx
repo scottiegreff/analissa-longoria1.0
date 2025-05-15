@@ -20,7 +20,7 @@ const fontSpecialElite = Special_Elite({
 export default function Videos() {
   return (
     <>
-      <section className="bg-black">
+      <section className="bg-black w-full h-full">
         <div className="flex flex-col items-center gap-10 pb-20 bg-black">
           <h1 className={cn("text-[5rem] text-red-700 m-center", fontBabas.className)}>
             Analissa Longoria
